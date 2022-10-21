@@ -23,6 +23,72 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+
+/* ---- My Solution ---- */
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #e9e6e6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  padding: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  align-self: center;
+}
+
+.guts {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.non-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.span-head {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.sidebar {
+  flex: 0 0 auto;
+  padding-left: 25px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+  padding-left: 0;
 }
